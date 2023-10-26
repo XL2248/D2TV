@@ -21,6 +21,8 @@ The code incorporating image features is mainly borrowed from [Vg-gplms](https:/
 
 All the triplet data <image URLs, source article, source summary, target article, and target summary> used in this work can be downloaded [here](https://drive.google.com/file/d/1fiBICIJtP66WYFUrTIyZLGphbfgyqCLs/view?usp=sharing). We crawled the corresponding images from BBC with the article URLs of [CrossSum](https://github.com/csebuetnlp/CrossSum).
 
+We noticed that the images/visual features obtained with Faster-RCNN are too large to be uploaded and thus we recommend readers [crawl them](https://github.com/XL2248/SOV-MAS/tree/main/images_crawl) with our URLs and then extract the visual features following the [instruction](https://github.com/XL2248/SOV-MAS/tree/main/feature_extraction).
+
 # Traing
 For multi-gpu multilingual training (8 gpus), run it like this, take mt5-model for example: 
 ```
