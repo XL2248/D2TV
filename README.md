@@ -24,14 +24,14 @@ All the triplet data <image URLs, source article, source summary, target article
 # Traing
 For multi-gpu multilingual training (8 gpus), run it like this, take mt5-model for example: 
 ```
-bash multimodal_train_m2m_mt5.sh 5 4 11 True 1.0 8.0   # many-to-many setting.
+bash seq2seq_img_dualkd_mt5/multimodal_train_m2m_mt5.sh 5 4 11 True 1.0 8.0   # many-to-many setting.
 ```
 
 
 # Testing
 For testing, run it: 
 ```
-bash evaluation_runner.sh model_name
+bash seq2seq_img_dualkd_mt5/evaluation_runner.sh model_name
 ```
 
 # Reference
