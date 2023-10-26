@@ -19,7 +19,7 @@ The code incorporating image features is mainly borrowed from [Vg-gplms](https:/
 
 # Data
 
-All the triplet data <image URLs, source article, source summary, target article, and target summary> used in this work can be downloaded [here](https://drive.google.com/file/d/1fiBICIJtP66WYFUrTIyZLGphbfgyqCLs/view?usp=sharing), which is originally crawled from BBC with the aligned URLs by [CrossSum](https://github.com/csebuetnlp/CrossSum).
+All the triplet data <image URLs, source article, source summary, target article, and target summary> used in this work can be downloaded [here](https://drive.google.com/file/d/1fiBICIJtP66WYFUrTIyZLGphbfgyqCLs/view?usp=sharing). We crawled the corresponding images from BBC with the article URLs by [CrossSum](https://github.com/csebuetnlp/CrossSum).
 
 # Traing
 For multi-gpu multilingual training (8 gpus), run it like this, take mt5-model for example: 
