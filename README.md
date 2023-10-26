@@ -22,7 +22,7 @@ The code incorporating image features is mainly borrowed from [Vg-gplms](https:/
 All the triplet data <image URLs, source article, source summary, target article, and target summary> can be downloaded [here](https://drive.google.com/file/d/1fiBICIJtP66WYFUrTIyZLGphbfgyqCLs/view?usp=sharing). 
 
 # Traing
-For multi-gpu multilingual training (8 gpus), run it like this: 
+For multi-gpu multilingual training (8 gpus), run it like this, take mt5-model for example: 
 ```
 bash multimodal_train_m2m_mt5.sh 5 4 11 True 1.0 8.0   # many-to-many setting.
 ```
